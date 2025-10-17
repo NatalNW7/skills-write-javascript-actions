@@ -11,3 +11,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - name: Tell a joke
+        id: joke_step
+        uses: ./.github/actions/joke-action
