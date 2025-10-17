@@ -1,0 +1,7 @@
+name: "My Joke Action"
+description: "An action that tells a random joke by retriveing it from an external API."
+author: "NatalNW7"
+
+runs:
+  using: "node16"
+  main: "index.js"
